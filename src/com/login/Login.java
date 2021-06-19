@@ -23,7 +23,7 @@ public class Login extends HttpServlet {
 
 		LoginDao dao = new LoginDao();
 		try {
-			if(dao.check(uname, pass))
+			if (dao.check(uname, pass))
 
 			{
 				HttpSession session = request.getSession();
