@@ -30,7 +30,7 @@
 		<div class="card">
 			<div class="card-body">
 				<caption>
-					<h2>LogIn / Sign Up </h2>
+					<h2>LogIn / Sign Up</h2>
 				</caption>
 
 
@@ -39,8 +39,9 @@
 						class="form-control" name="uname"><br> <br> <label>Enter
 						Password:</label> <input type="password" class="form-control" name="pass"><br>
 					<input type="submit" class='btn btn-primary' value="Log In">
-					
-					<a href="<%=request.getContextPath()%>/signup.jsp" class="btn btn-success">Create New Admin </a>
+
+					<a href="<%=request.getContextPath()%>/signup.jsp"
+						class="btn btn-success">Create New Admin </a>
 
 				</form>
 
